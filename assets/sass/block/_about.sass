@@ -1,0 +1,50 @@
+.about
+  margin-top: 450px
+  &-img
+    // margin-left: -150px
+    width: 100%
+    padding-top: 100px
+  &-wrapper
+    padding-top: 70px
+    padding-left: 40px
+  &-wrap
+    padding-bottom: 40px
+    &-title
+      &_title
+        font-family: 'Philosopher'
+        font-style: normal
+        font-weight: 700
+        font-size: 42px
+        line-height: 160%
+        color: $colorAboutTitle
+      &_text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 500
+        font-size: 17px
+        line-height: 25px
+        color: $h3
+  &-text
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 1.9
+    &-block
+      display: none
+      text-align: justify
+@media screen and ( max-width: 1200px )
+  .about-text
+    display: none
+    &-block
+      display: block
+@media screen and ( max-width: 992px )
+  .about
+    margin-top: 350px
+
+@media screen and ( max-width: 770px )
+  .about-wrapper
+    padding-left: 0
+@media screen and ( max-width: 576px )
+  .about
+    margin-top: 65%

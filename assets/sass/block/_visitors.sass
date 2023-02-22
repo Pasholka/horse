@@ -1,0 +1,98 @@
+.visitors
+  &-title
+    padding-top: 150px
+  &-img
+    &-slider
+      object-fit: cover
+      width: 100%
+      max-width: 470px
+      // min-width: 321px
+      gap: 30px
+      height: 300px
+      display: flex
+
+  &-wrapper
+    padding-top: 70px
+
+.slick-list
+  overflow: hidden
+.slick-track
+  display: flex
+  gap: 10px
+  // width: 100%
+.slider-item
+  text-align: center
+  // max-width: 470px
+  // height: 300px
+
+.appendArrows .slick-prev
+  background: url('/assets/image/left.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  position: relative
+  left: -80px
+  top: -25px
+.appendArrows .slick-next
+  background: url('/assets/image/right.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  position: relative
+  right: -90px
+  top: -25px
+
+.slider .slick-dots
+  display: flex
+  gap: 20px
+  justify-content: center
+  align-items: center
+  padding-top: 60px
+.slider .slick-dots button
+  font-size: 0px
+  width: 16px
+  height: 16px
+  background-color: #E1E1E1
+  border-radius: 50%
+  border: none
+.slider .slick-active button
+  background-color: #FFC700
+  border: none
+.slider-item
+  position: relative
+
+//   &:hover
+//     position: absolute
+//     background: url('/assets/image/dandruff.png')
+//     // background-repeat: no-repeat
+//     width: 200px
+//     height: 200px
+//     opacity: 0
+.lupa
+  position: absolute
+  width: 100%
+  height: 100%
+  // top: 50%
+  // left: 50%
+  opacity: 0
+  &:hover
+    opacity: 1
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, 0.35)
+.lupa-o
+  background: url('/assets/image/dandruff.svg')
+
+  background-repeat: no-repeat
+  height: 51px
+  background-size: 50px
+  margin-left: auto
+  margin-right: auto
+  width: 50px
+  margin-top: 125px

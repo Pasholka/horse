@@ -1,0 +1,78 @@
+.footer
+  &-logo
+    padding-top: 25px
+    padding-bottom: 25px
+  &-bg
+    background: black
+    width: 100%
+  &-wrapper
+    display: flex
+    justify-content: space-between
+  &-menu
+    display: flex
+    justify-content: end
+    gap: 70px
+    padding-top: 40px
+.menu
+  &-list
+    display: flex
+    justify-content: space-between
+    // gap: 30px
+  &-item
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 13px
+    line-height: 1
+    color: #EAEAEA
+  &-button
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 13px
+    line-height: 1
+    color: #EAEAEA
+    border: 1px solid #FDE724
+    border-radius: 5px
+    padding: 14px 40px
+.base
+  &-list
+    display: flex
+    justify-content: start
+    gap: 40px
+    padding-bottom: 25px
+  &-item
+    color: #7D808A
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 13px
+    line-height: 0.9
+    border-bottom: 1px solid #7D808A
+@media screen and ( max-width: 992px )
+  .footer-logo__logo
+    max-width: 100px
+    padding-top: 10px
+  .footer .container
+    max-width: 100%
+@media screen and ( max-width: 700px )
+  .menu
+    &-list
+      gap: 20px
+    &-item
+      padding: 0 !important
+@media screen and ( max-width: 576px )
+  .menu-list
+    flex-direction: column
+  .base-list
+    flex-direction: column
+    gap: 0px
+    align-items: center
+  h1
+    font-size: 30px
+  .hero-subtitle
+    font-size: 18px
+  .about-wrap-title_title
+    font-size: 30px
+  h2
+    font-size: 25px

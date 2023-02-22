@@ -1,0 +1,102 @@
+.horse
+  margin-top: 150px
+  &-card
+    max-width: 370px
+  &-img
+    width: 90%
+    height: 420px
+    margin-top: -25px
+  &-slider
+    // padding-top: 95px
+    .slick
+      &-track
+
+        padding-top: 95px
+    &-item
+      width: 370px
+      max-height: 580px
+      background: #EAEAEA
+      border-radius: 5px
+      padding-bottom: 45px
+    &-title
+      padding-top: 25px
+    hr
+      color: #008139
+      width: 26px
+      height: 1px
+      margin: 0 auto
+      margin-top: 25px
+      margin-bottom: 25px
+  &-card
+    &-title
+      font-family: 'Roboto'
+      font-style: normal
+      font-weight: 500
+      font-size: 23px
+      line-height: 1
+      margin: 0
+    &-text
+      font-family: 'Roboto'
+      font-style: normal
+      font-weight: 400
+      font-size: 15px
+      line-height: 1.4
+      max-width: 270px
+      margin: 0 auto
+.horse-slider .slick-slide:not(.slick-active)
+  opacity: 0.5
+  margin-top: -50px
+.horse-slider .slick-slide
+  transition: .7s
+.horse-slider .slick-track
+  gap: 30px
+
+.clients-arrow .slick-next
+  background: url('/assets/image/right.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  display: flex
+  order: 3
+  margin: 0 auto
+.clients-arrow .slick-prev
+  background: url('/assets/image/left.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  display: flex
+  order: 1
+  margin: 0 auto
+.clients-arrow .slick-dots
+  display: flex
+  gap: 20px
+  justify-content: center
+  align-items: center
+  order: 2
+  margin: 0 auto
+  padding-bottom: 15px
+.clients-arrow .slick-dots button
+  font-size: 0px
+  width: 16px
+  height: 16px
+  background-color: #E1E1E1
+  border-radius: 50%
+  border: none
+.clients-arrow .slick-active button
+  background-color: #FFC700
+  border: none
+.clients-arrow
+  padding-top: 60px
+  display: flex
+  justify-content: center
+  margin: 0 auto
+  max-width: 300px
+@media screen and ( max-width: 992px )
+  .horse
+    margin-top: 50px

@@ -1,0 +1,129 @@
+.clients
+  margin-top: 60px
+  &-card
+    max-width: 570px
+    height: 100%
+    border: 1px solid #EAEAEA
+    box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11)
+    border-radius: 5px
+
+  &-photo
+    width: 45px
+    height: 45px
+    border-radius: 50%
+    object-fit: cover
+  &-details
+    padding-top: 15px
+    margin: 0 auto
+    text-align: center
+    color: #008139
+    cursor: pointer
+  &-wrap
+    padding-left: 45px
+    padding-top: 45px
+    display: flex
+    gap: 25px
+    padding-bottom: 35px
+  &-social
+    &-link
+      display: flex
+      gap: 10px
+      position: relative
+      & span
+        padding-top: 10px
+        font-size: 20px
+        color: #8A8A8A
+        cursor: pointer
+        &:hover
+          color: red
+  &-quote
+    position: absolute
+    top: 0px
+    right: -250px
+.clients-slider .slick-track
+  gap: 30px
+  padding-top: 100px
+  height: 400px
+.clients-slider .slick-slide:not(.slick-active)
+  opacity: 0.5
+  margin-top: -50px
+.clients-slider .slick-active
+  // text-align: center
+.clients-slider .slick-slide
+  transition: .9s
+.clisnts-wrapper .horse-arrow
+  padding-top: 0px
+.clients-text
+
+  font-family: 'Roboto'
+  font-style: normal
+  font-weight: 400
+  font-size: 15px
+  line-height: 1.6
+  padding-left: 45px
+  padding-right: 45px
+  padding-top: 40px
+    // padding-bottom: 15px
+  height: 110px
+  overflow: hidden
+.horse-arrow .slick-next
+  background: url('/assets/image/right.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  display: flex
+  order: 3
+  margin: 0 auto
+.horse-arrow .slick-prev
+  background: url('/assets/image/left.png')
+  font-size: 0px
+  width: 40px
+  height: 40px
+  border: none
+  background-size: 30px
+  background-repeat: no-repeat
+  display: flex
+  order: 1
+  margin: 0 auto
+.horse-arrow .slick-dots
+  display: flex
+  gap: 20px
+  justify-content: center
+  align-items: center
+  order: 2
+  margin: 0 auto
+  padding-bottom: 15px
+.horse-arrow .slick-dots button
+  font-size: 0px
+  width: 16px
+  height: 16px
+  background-color: #E1E1E1
+  border-radius: 50%
+  border: none
+.horse-arrow .slick-active button
+  background-color: #FFC700
+  border: none
+.horse-arrow
+  padding-top: 60px
+  display: flex
+  justify-content: center
+  margin: 0 auto
+  max-width: 300px
+
+// .clients-deteils.active + .clients-text
+//   overflow: visible
+
+.active
+  overflow: visible
+  height: 100%
+.active_active
+  transform: scale(1, -1)
+
+.d
+  overflow: hidden
+@media screen and ( max-width: 576px )
+  .clients-text
+    width: 300px
